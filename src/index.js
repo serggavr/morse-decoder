@@ -62,6 +62,7 @@ function decode(expr) {
       else {answer += MORSE_TABLE[morseSymbol];}
     morseSymbol = "";
     }
+    return answer;
 }
 
 module.exports = {
